@@ -1,12 +1,16 @@
-# Regex Tutorial: 
+# Regex Tutorial: Matching an Email
 
-Introductory paragraph (replace this with your text)
-
-## Summary
+## Introduction to Regex
 
 A regular expression, regex for short, is a sequence of characters that defines a search pattern for text. Regex utilizes "literal characters' in order to identify the exact character or pattern(s) you are searching for within a body of text.
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this tutorial, we will be focusing on a specific regular exrpession,`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`, matching an Email.
+
+## Summary
+
+Regex: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+
+ This regex pattern is intended to validate email addresses with a specific structure of username@domain.extension, where the username can contain letters, numbers, underscores, periods, and hyphens.
 
 ## Table of Contents
 
@@ -15,7 +19,16 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Examples & Explanations](#or-operator)
 - [About the Author](#author)
 
-#
+# Explanation of the Regex
+
+For example, the following regular expression can be used to verify that user input is a valid email address:
+
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+
+# Breakdown of Components
+
+
+# Examples & Explanations
 
 ## Author
 
