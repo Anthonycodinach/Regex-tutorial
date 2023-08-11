@@ -14,9 +14,9 @@ This regex pattern is intended to validate email addresses with a specific struc
 
 # Table of Contents
 
-- [Explanation of the Regex](#Explanation-of-the-Regex)
-- [Components Breakdown](#Components-Breakdown)
-- [Examples & Explanations](#Examples-&-Explanations)
+- [Explanation of the Regex](#explanation-of-the-regex)
+- [Components Breakdown](#components)
+- [Examples & Explanations](#examples)
 - [About the Author](#author)
 
 # Explanation of the Regex
@@ -27,7 +27,7 @@ The following regular expression can be used to verify that user input is a vali
 
 Anchors will match at the start and end of the string. The capturing group for the username and domain part of the email consists of lowercase letters, numbers, underscores, periods, and hyphens. The + allows for one or more characters.
 
-# Components Breakdown
+# Components
 
 * `^`: Matches the begining of the string.
 
@@ -73,7 +73,7 @@ Anchors will match at the start and end of the string. The capturing group for t
 
 * `$`: Anchors the match at the end of the string.
 
-# Examples & Explanation
+# Examples
 
 Refer to the examples of how the matching email regex can be used with JavaScript to match or validate email addresses:
 
